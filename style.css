@@ -1,0 +1,128 @@
+/*  Padding espace à l'intérieur = haut droit bas gauche
+    Margin espace à lextérieur = haut droit bas gauche
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background:#013328;
+    color: #E3DCD2;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 25px; 
+    color: #CC8B65;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #CC8B65;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navbar a:hover{
+    color:#E3DCD2;
+
+}
+
+.accueil {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 0;
+}
+
+.accueil-info{
+    max-width: 600px;
+}
+
+.accueil-info h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.accueil-info h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #CC8B65;
+}
+
+.accueil-info p{
+    font-size: 15px;
+    margin: 20px 0 40px;
+}
+
+
+.accueil-info .btn-box{
+    width: 345px;
+    height: 50px;
+    background: transparent;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #E3DCD2;
+    border: 2px solid #E3DCD2;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #013328;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    transition: .5s;
+
+}
+
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #CC8B65;
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: -1;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+ }
