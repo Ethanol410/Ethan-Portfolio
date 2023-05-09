@@ -50,6 +50,7 @@ body {
 
 .accueil {
     height: 100vh;
+    /* background: url(/Images/PhotoCV.JPG) no-repeat; */
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -103,8 +104,7 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
-    transition: .5s;
-
+    
 }
 
 
@@ -117,10 +117,12 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    background: red;
+    background: #CC8B65;
     z-index: -1;
+    transition: .5s;
+
 }
 
 .btn-box a:hover::before{
