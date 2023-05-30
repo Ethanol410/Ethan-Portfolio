@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,9 @@
     <title>Portfolio Collin Ethan HTML/CSS/JS</title>
     <link rel="stylesheet" href="/style2.css">
     <script src="/script.js"></script>
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
    
@@ -15,9 +18,11 @@
         
         <a href="#" class="logo">Ethan.</a>
 
+        <i class='bx bx-menu' id="menu-icon"></i>
+
         <!--Barre de menu -->
         <nav class="navbar">
-        <a href="#accueil">Accueil</a>
+        <a href="#accueil" class="actif">Accueil</a>
         <a href="#info">Info</a>
         <a href="#service">Services</a>
         <a href="#portfolio">Portfolio</a>
@@ -25,18 +30,26 @@
 
     </header>
     
+<!--acceuil section design-->
 
-    <section class="accueil">
-        <div class="accueil-info">
-            <h1>Salut, je suis Ethan Collin</h1>
-            <h3>Etudiant en Informatique</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iste incidunt rerum, natus deserunt magni saepe odio dicta quas reprehenderit odit dolorem praesentium. Numquam nobis eum voluptas.</p>
-            <div class="btn-box">
-                <a href="#">Recrutez-moi</a>
-                <a href="#">Contactez-moi</a>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Salut, c'est moi</h3>
+            <h1>Collin Ethan</h1>
+            <h3>Et je suis <span>Web Designer</span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque hic exercitationem nostrum quam! Expedita similique aliquid eligendi est! Molestias consequuntur at libero debitis nobis? Animi libero corporis ut omnis?</p>
+            <div class="social-media">
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-gmail' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
             </div>
-        </div>
-       
+            <a href="#" class="btn">Télécharger CV</a>
+       </div>
+
+       <div class="home-img">
+        <img src="/Images/ImageTeteFond.png" alt="">
+       </div>
     </section>
 
     
