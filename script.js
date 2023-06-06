@@ -46,10 +46,12 @@ window.onscroll = () => {
         delay: 200
      });
 
-     ScrollReveal().reveal('.home-content, .heading', { origin:'top' });
-     ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin:'bottom' });
+     ScrollReveal().reveal('.home-content, .heading,.titre', { origin:'top' });
+     ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form,', { origin:'bottom' });
      ScrollReveal().reveal('.home-content h1, .info-img ', { origin:'left' });
-     ScrollReveal().reveal('.home-content p, .info-content ', { origin:'right' });
+     ScrollReveal().reveal('.home-content p, .info-content,.competences-box,.bar ', { origin:'right' });
+     ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin:'bottom' });
+
 
 
     /*====== Typed Js =========*/
