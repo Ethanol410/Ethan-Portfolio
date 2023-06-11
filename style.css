@@ -62,7 +62,7 @@ section{
 .logo {
     font-size: 2.5rem; 
     color: var(--text-color);
-    cursor: default;
+    cursor: pointer;
     font-weight: 600;
     
   
@@ -342,7 +342,7 @@ span{
   color: var(--second-bg-color);
 }
 
-/* Mes compétences */
+/* Mes compétences 
 
 .competences{
   min-height: auto;
@@ -408,7 +408,7 @@ span{
   background: var(--main-color);
 }
 
-/* 1er tableau des compétences */
+/* 1er tableau des compétences 
 
 .competences-column:nth-child(1) .competences-content .progress:nth-child(1) .bar span{
   width: 90%;
@@ -438,7 +438,7 @@ span{
   width: 35%;
 }
 
-/* 2eme tableau des compétences */
+/* 2eme tableau des compétences 
 
 .competences-column:nth-child(2) .competences-content .progress:nth-child(1) .bar span{
   width: 80%;
@@ -467,13 +467,13 @@ span{
 .competences-column:nth-child(2) .competences-content .progress:nth-child(7) .bar span{
   width: 40%;
 }
-
+*/
 
 /* Partie Contact */
 
 
 .contact{
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 
 }
 
@@ -486,12 +486,14 @@ span{
   margin: 1rem auto;
   text-align: center;
   margin-bottom: 3rem;
+  
 }
 
 .contact form .input-box{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 
 .contact form .input-box input,
@@ -500,23 +502,31 @@ span{
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background:var(--bg-color);
+  background:var(--second-bg-color);
   border-radius: .8rem;
   margin:.7rem 0;
+
+  
 }
 
 .contact form .input-box input{
   width: 49%;
+  
 }
 
 .contact form textarea{
   resize: none;
+  
 }
 
 .contact form .btn{
   margin-top: 2rem;
   cursor: pointer;
+ 
 }
+
+/* Footer */
+
 
 .footer{
   display: flex;
@@ -524,7 +534,7 @@ span{
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: var(--bg-color);
+  background: var(--second-bg-color);
 }
 
 .footer-text p{
