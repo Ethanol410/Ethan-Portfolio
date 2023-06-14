@@ -136,13 +136,37 @@
     <section class="portfolio" id="portfolio">
         <h2 class="heading">Derniers <span>Projets</span></h2>
 
+
+        <!-- fenetre modale -->
+
+
+        <div class="overlay"></div>
+        <div class="modal">
+            <div class="modal__close" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+              </div>
+            <div class="modal__header">
+                <h2 class="modal__header__title">Titre de la fenetre</h2>
+            </div>
+        
+
+        <div class="modal__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit nisi numquam adipisci deserunt eveniet.</p>
+        </div>
+
+        <div class="modal__footer">
+            <button class="modal__footer_button" onclick="closeModal()">Fermer</button>
+        </div>
+        </div>
+
         <div class="portfolio-container">
             <div class="portfolio-box">
                 <img src="Images/Puissance4.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Puissance 4</h4>
-                    <p>Ce projet consistait en la création d'un site vitrine pour un site de sport nommé sport Koh, un projet effectué en équipe et le tout en langage HTML, CSS ainsi que Figma pour la maquette du site</p>
-                    <a href="indexPuissance4.html"><i class='bx bx-link-external'></i></a>
+                    <p>Réalisation d'un jeu de Puissance 4 en C.</p>
+                    <i class='bx bx-link-external'onclick="openModal()"></i></a>
                 </div>
             </div>
 
@@ -153,7 +177,7 @@
                 <div class="portfolio-layer">
                     <h4>Team Building</h4>
                     <p>Réalisation d'un événement de Team Building pour Décatlhon.</p>
-                    <a href="indexTeamBuilding.html"><i class='bx bx-link-external'></i></a>
+                    <i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -161,8 +185,8 @@
                 <img src="Images/sport_koh.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Site Web</h4>
-                    <p>Réalisation d'un site internet, en se basant le compte rendu d'une interview avec le client.</p>
-                    <a href="indexSportKoh.html"><i class='bx bx-link-external'></i></a>
+                    <p>Réalisation d'un site internet.</p>
+                    <i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -171,7 +195,7 @@
                 <div class="portfolio-layer">
                     <h4>Problème des Huits Dames</h4>
                     <p>Réalisation d'un programme en Python permettant la résolution du problème des 8-dames.</p>
-                    <a href="index8reines.html"><i class='bx bx-link-external'></i></a>
+                    <i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -179,7 +203,7 @@
                 <img src="Images/TransMusicales (1).jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>TransMusicales</h4>
-                    <p>Ce projet consiste en la conception d'une base de données relationnelle, de son implémentation et enfin de son interrogation via des requêtes, le tout en SQL. Le travail était à effectué par équipe de 3.</p>
+                    <p>Réalisation d'une base de données relationnelle, de son implémentation.et enfin de son interrogation via des requêtes, le tout en SQL.</p>
                     <a href="indexTransmusicales.html"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
